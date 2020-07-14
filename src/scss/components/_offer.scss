@@ -1,0 +1,85 @@
+.offer {
+  background: $secondary-color;
+  height: 100vh;
+  position: relative;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+
+  &__img {
+    height: 80vh;
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+    transform: translateX(-50%);
+  }
+
+  &__presentation {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    line-height: 2.5rem;
+    width: 100%;
+
+
+    &-line {
+      background: $primary-color;
+      height: 1px;
+      width: 100%;
+    }
+  }
+
+  &__name {
+    color: $default-color;
+    width: 25%;
+  }
+
+  &__desc {
+    color: $primary-color;
+    margin-top: .5rem;
+    width: 25%;
+  }
+
+  &__main {
+    color: $default-color;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 45%;
+
+    h1 {
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+
+      span {
+        color: $primary-color;
+        font-size: 6rem;
+        line-height: 7rem;
+        letter-spacing: 5px;
+      }
+    }
+
+    ul {
+      color: $primary-color;
+      line-height: 4rem;
+      list-style-position: inside;
+
+      li {
+        position: relative;
+        left: -2px;
+      }
+    }
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  &__line {
+    background: $primary-color;
+    height: 1px;
+    width: 5rem;
+  }
+}

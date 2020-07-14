@@ -1,0 +1,35 @@
+.u-padding-main {
+    padding: 0 6rem;
+
+    @include respond(tab-port) {
+        padding: 0 3rem;
+    }
+
+    @include respond(phone) {
+        padding: 0 1.5rem;
+    }
+}
+
+.u-padding-left {
+    padding-left: 6rem;
+
+    @include respond(tab-port) {
+      padding-left: 3rem;
+    }
+    
+    @include respond(phone) {
+        padding-left: 1.5rem;
+    }
+}
+
+.u-padding-right {
+    padding-right: 6rem;
+
+    @include respond(tab-port) {
+        padding-right: 3rem;
+    }
+    
+    @include respond(phone) {
+        padding-right: 1.5rem;
+    }
+}
